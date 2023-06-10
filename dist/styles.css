@@ -39,7 +39,7 @@ header {
     width: 8em;
     height: 8em;
     border-radius: 100px;
-    border: 1px solid #A3B18A;
+    border: 1px solid #c8e0e0;
     box-shadow: #1c205d3d 0 2px 8px;
 }
 
@@ -51,7 +51,7 @@ header {
     margin: 4px 0;
     font-size: 65px;
     font-family: header;
-    color: #a3b18a;
+    color: #c8e0e0;
     -webkit-text-stroke: 2px #c8e0e0;
     text-shadow: 2px 2px 0 #c8e0e0
 }
