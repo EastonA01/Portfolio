@@ -132,7 +132,7 @@ ul>li {
     cursor: pointer;
     transform: scale(1.2);
     transform: translateZ(0);
-    backface-visibility: hidden
+    backface-visibility: hidden;
 }
 
 .info {
@@ -154,6 +154,10 @@ ul>li {
     font-family: body;
     font-size: 13px;
     margin: 0
+}
+.title {
+    display:flex;
+    justify-content: space-between
 }
 
 ul>li>a {
@@ -213,3 +217,16 @@ iframe{
     width: 100%;
     height: fit-content;
 }
+
+.box .hide {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.6s ease, max-height 1s ease;
+  }
+  
+  .box:hover .hide {
+    opacity: 1;
+    max-height: 1000px; /* Adjust this value to a larger number if necessary */
+  }
+  
