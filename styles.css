@@ -109,7 +109,8 @@ header {
     max-width: 1000px;
     list-style: none;
     margin: 1em auto;
-    padding: 0 2em 2em
+    padding: 0 2em 2em;
+    align-items: start;
 }
 
 .socials {
@@ -126,6 +127,10 @@ ul>li {
     box-shadow: #1c205d3d 0 2px 8px;
     transition: .3s ease-in-out 0s;
     transform: scale(.98)
+}
+
+.li2 {
+    background-color: #abd4d4;
 }
 
 .box:hover {
@@ -230,3 +235,7 @@ iframe{
     max-height: 1000px; /* Adjust this value to a larger number if necessary */
   }
   
+  video {
+    width: 100%;
+    aspect-ratio: 16:9;
+  }
