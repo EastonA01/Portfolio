@@ -210,7 +210,8 @@ a {
     font-size: 1.3em;
     font-family: header;
     color: #c8e0e0;
-    line-height: 5px
+    line-height: 5px;
+    text-shadow: -1px 2px black;
 }
 
 iframe{
@@ -221,6 +222,7 @@ iframe{
 .visual1{
     width: 100%;
     height: fit-content;
+    aspect-ratio: 16/9;
 }
 
 .box .hide {
@@ -237,5 +239,5 @@ iframe{
   
   video {
     width: 100%;
-    aspect-ratio: 16:9;
+    aspect-ratio: 16/9;
   }
