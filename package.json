@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://eastonandrew01.github.io/Portfolio",
+  "homepage": "https://eastonandrew01.github.io/Portfolio",
   "dependencies": {
     "gh-pages": "^5.0.0"
   }
